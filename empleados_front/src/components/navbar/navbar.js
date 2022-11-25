@@ -1,8 +1,8 @@
 import React from "react";
-import { Container, Nav, Navbar, DropdownButton, Row, Col, Dropdown } from "react-bootstrap";
+import { Container, Nav, Navbar, DropdownButton, Row, Dropdown } from "react-bootstrap";
 import './navbar.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUserSecret } from "@fortawesome/free-solid-svg-icons";
+import { faUserPlus } from "@fortawesome/free-solid-svg-icons";
 
 export default class menu extends React.Component {
   constructor(props) {
@@ -23,7 +23,7 @@ export default class menu extends React.Component {
             <DropdownButton id="dropdown-basic-button" title="Usuario">              
               <Dropdown.Header>
                 <Row>
-                <FontAwesomeIcon icon={faUserSecret} />
+                <FontAwesomeIcon icon={faUserPlus} />
                 </Row>
                 <Row>
                 #USUARIO#
